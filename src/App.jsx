@@ -7,7 +7,6 @@ function App() {
 
   useEffect(
     () => {
-      console.log("Hello pokemon trainer :)");
       alert("Hello pokemon trainer :)");
   },
   []

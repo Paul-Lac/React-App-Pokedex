@@ -2,9 +2,11 @@ function NavBar({ pokemonList, pokemonIndex, setPokemonIndex }) {
 
 const handleButton = (index) => {
     setPokemonIndex(index);
+    if (index ===3) {
+    alert("Pika pikachu !!!") }
 }
 
-{setPokemonIndex === 3 && alert("Pika pikachu !!!")}
+
 
 return (
 <div>
