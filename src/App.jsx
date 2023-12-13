@@ -1,8 +1,17 @@
 import NavBar from "./components/NavBar";
 import PokemonCard from "./components/PokemonCard";
 import { useState } from "react";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(
+    () => {
+      console.log("Hello pokemon trainer :)");
+      alert("Hello pokemon trainer :)");
+  },
+  []
+  );
 
   const pokemonList = [
     {

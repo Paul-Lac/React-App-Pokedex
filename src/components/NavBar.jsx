@@ -4,6 +4,8 @@ const handleButton = (index) => {
     setPokemonIndex(index);
 }
 
+{setPokemonIndex === 3 && alert("Pika pikachu !!!")}
+
 return (
 <div>
 {pokemonList.map((pokemon, index) => (
